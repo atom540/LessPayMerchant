@@ -1,5 +1,5 @@
 .help_support_main{
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     margin: 2rem;
 }
@@ -14,34 +14,17 @@
 }
 .title_txt{
     font-weight: 200;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .title{
-    font-size: 2rem;
-}
-.faq_titles{
-    display: flex;
-}
-.right_arrow{
-    margin-top: 1.2rem;
-    margin-left: 0.5rem;
-}
-
-.faq_content{
-    width: 80vw;
-    line-height: 1.5rem;
-    height: fit-content;
-
-}
-.faq_content p{
-    margin-top: 0;
+    font-size: 21px;
 }
 
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
 
     .help_support_main{
-        width: 80vw;
+        width: 100vw;
         height: 100vh;
         margin: 1rem;
     }

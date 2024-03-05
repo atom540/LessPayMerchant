@@ -1,0 +1,44 @@
+.help_support_main{
+    width: 100vw;
+    height: 100vh;
+    margin: 2rem;
+}
+
+
+.title_txt{
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+.title{
+    font-size: 21px;
+}
+.btn_submit{
+    margin-top:2rem;
+    height: 5vh;
+    border-radius:15px;
+    cursor: pointer;
+    background: #2D796D;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 7px;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px) and (orientation: portrait) {
+
+    .help_support_main{
+        width: 100vw;
+        height: 100vh;
+        margin: 1rem;
+    }
+      
+   
+}

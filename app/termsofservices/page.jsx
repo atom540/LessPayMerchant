@@ -1,15 +1,12 @@
 'use client'
 
 import styles from './termsservices.module.css'
+import Image from "next/image";
+import left from "../../public/images/big_left.png";
 const AboutUs = () => {
   return (
     <div className={styles.container}>
-      <a
-        href="#"
-        className={` ${styles.btn} ${styles.previous} ${styles.round}`}
-      >
-        &#8249;
-      </a>
+      <Image src={left} alt="" onClick={()=> { window.location.href = '/aboutgastos'; }} />
       <h1>Term of Service</h1>
       <div className={styles.content}>
         By downloading or using the app, these terms will automatically apply to

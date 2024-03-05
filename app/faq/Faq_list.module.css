@@ -1,0 +1,22 @@
+.faq_titles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right_arrow{
+    margin-top: 1.1rem;
+    margin-left: 0.5rem;
+}
+
+.faq_content{
+    width: 80vw;
+    line-height: 1.5rem;
+    height: fit-content;
+
+}
+.faq_content p{
+    margin-top: 0;
+}
+.faq_titles h3{
+    font-size: 1rem;
+}

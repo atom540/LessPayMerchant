@@ -1,15 +1,12 @@
 'use client'
 
 import styles from './grievance.module.css'
+import Image from "next/image";
+import left from "../../public/images/big_left.png";
 const AboutUs = () => {
   return (
     <div className={styles.container}>
-      <a
-        href="#"
-        className={` ${styles.btn} ${styles.previous} ${styles.round}`}
-      >
-        &#8249;
-      </a>
+     <Image src={left} alt="" onClick={()=> { window.location.href = '/aboutgastos'; }} />
       <h1>Grievance Policy</h1>
       <div className={styles.content}>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam,

@@ -1,14 +1,11 @@
 'use client'
 import styles from './aboutus.module.css'
+import Image from "next/image";
+import left from "../../public/images/big_left.png";
 const AboutUs = () => {
   return (
     <div className={styles.container}>
-      <a
-        href="#"
-        className={` ${styles.btn} ${styles.previous} ${styles.round}`}
-      >
-        &#8249;
-      </a>
+     <Image src={left} alt="" onClick={()=> { window.location.href = '/aboutgastos'; }} />
       <h1>About Us</h1>
       <div className={styles.content}>
         Welcome to Less Pay, your number one solution of your daily payments.
